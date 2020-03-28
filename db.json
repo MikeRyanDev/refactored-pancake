@@ -1,0 +1,24 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "name": "Interstellar",
+      "description": "Space",
+      "earnings": 25000000
+    },
+    {
+      "id": "2",
+      "name": "Inception",
+      "description": "I forgot",
+      "earnings": 50000000
+    }
+  ],
+  "books": [
+    {
+      "id": "5538704c-c594-4405-87bf-df5ce7eec3e2",
+      "name": "Mike's Second Test",
+      "earnings": "654654",
+      "description": null
+    }
+  ]
+}
