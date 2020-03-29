@@ -1,6 +1,9 @@
 import { createReducer, on, Action, createSelector } from "@ngrx/store";
 import { createEntityAdapter, EntityState } from "@ngrx/entity";
-import { BookModel, calculateBooksGrossEarnings } from "src/app/shared/models";
+import {
+  BookModel,
+  calculateBooksGrossEarnings
+} from "src/app/shared/models/book.model";
 import { BooksPageActions, BooksApiActions } from "src/app/books/actions";
 
 export interface State extends EntityState<BookModel> {

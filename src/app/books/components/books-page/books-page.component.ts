@@ -7,7 +7,7 @@ import {
   selectActiveBook,
   selectBooksEarningsTotals
 } from "src/app/shared/state";
-import { BookModel, BookRequiredProps } from "src/app/shared/models";
+import { BookModel, BookRequiredProps } from "src/app/shared/models/book.model";
 import { BooksPageActions } from "../../actions";
 
 @Component({

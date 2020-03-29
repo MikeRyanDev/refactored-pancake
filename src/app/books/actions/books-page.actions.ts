@@ -1,5 +1,5 @@
 import { createAction, props } from "@ngrx/store";
-import { BookRequiredProps } from "src/app/shared/models";
+import { BookRequiredProps } from "src/app/shared/models/book.model";
 
 export const enter = createAction("[Books Page] Enter");
 

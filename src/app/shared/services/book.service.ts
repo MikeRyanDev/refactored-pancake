@@ -1,7 +1,7 @@
 import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import * as uuid from "uuid/v4";
-import { BookModel, BookRequiredProps } from "../models";
+import { BookModel, BookRequiredProps } from "../models/book.model";
 
 const BASE_URL = "http://localhost:3000/books";
 const HEADER = {

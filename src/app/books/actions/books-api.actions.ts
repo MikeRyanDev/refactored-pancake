@@ -1,5 +1,5 @@
 import { createAction, props } from "@ngrx/store";
-import { BookModel } from "src/app/shared/models";
+import { BookModel } from "src/app/shared/models/book.model";
 
 export const booksLoaded = createAction(
   "[Books API] Books Loaded Success",
