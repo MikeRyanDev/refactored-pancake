@@ -9,13 +9,16 @@ import { BookDetailComponent } from "./components/book-detail/book-detail.compon
 import { BooksListComponent } from "./components/books-list/books-list.component";
 import { BooksTotalComponent } from "./components/books-total/books-total.component";
 import { BooksApiEffects } from "./books-api.effects";
+import { AuthGuard } from "../shared/guards";
 
 @NgModule({
   imports: [
     CommonModule,
     ReactiveFormsModule,
     MaterialModule,
-    RouterModule.forChild([{ path: "books", component: BooksPageComponent }]),
+    RouterModule.forChild([
+      { path: "books", component: BooksPageComponent, canActivate: [AuthGuard] }
+    ]),
     EffectsModule.forFeature([BooksApiEffects])
   ],
   declarations: [

@@ -7,7 +7,7 @@ import { ReactiveFormsModule } from "@angular/forms";
 import { MaterialModule } from "src/app/material.module";
 
 import { BooksPageComponent } from "./books-page.component";
-import { BooksService } from "src/app/shared/services/book.service";
+import { BooksService } from "src/app/shared/services";
 import { BooksListComponent } from "../books-list/books-list.component";
 import { BookDetailComponent } from "../book-detail/book-detail.component";
 import { BooksTotalComponent } from "../books-total/books-total.component";

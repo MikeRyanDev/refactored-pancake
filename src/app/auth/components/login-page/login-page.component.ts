@@ -1,7 +1,6 @@
 import { Component } from "@angular/core";
 import { Observable } from "rxjs";
 import { Store } from "@ngrx/store";
-import { LoginEvent } from "../login-form";
 import {
   State,
   selectAuthUser,
@@ -10,6 +9,7 @@ import {
 } from "src/app/shared/state";
 import { UserModel } from "src/app/shared/models";
 import { AuthUserActions } from "../../actions";
+import { LoginEvent } from "../login-form";
 
 @Component({
   selector: "app-login-page",
